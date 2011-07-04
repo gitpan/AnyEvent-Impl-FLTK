@@ -1,0 +1,38 @@
+---
+abstract: AnyEvent adaptor for the Fast Light ToolKit
+author:
+  - 'Sanko Robinson <sanko@cpan.org>'
+build_requires:
+  Module::Build: 0.36
+  Test::More: 0.94
+  perl: 5.006001
+configure_requires:
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110930'
+keywords:
+  - FLTK
+  - Fast
+  - Light
+  - Toolkit
+  - AnyEvent
+  - GUI
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: AnyEvent-Impl-FLTK
+provides:
+  AnyEvent::Impl::FLTK:
+    file: lib/AnyEvent/Impl/FLTK.pm
+    version: v0.0.1
+requires:
+  AnyEvent: 0
+  FLTK: 0.532009
+  perl: 5.006001
+resources:
+  bugtracker: http://github.com/sanko/anyevent-impl-fltk/issues
+  license: http://www.perlfoundation.org/artistic_license_2_0
+  repository: http://github.com/sanko/anyevent-impl-fltk/
+  x_ChangeLog: http://github.com/sanko/anyevent-impl-fltk/commits
+version: v0.0.1
